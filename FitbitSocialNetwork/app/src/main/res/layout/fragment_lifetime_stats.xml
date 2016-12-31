@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.shikher.fitbitsocialnetwork.fragment.stats.LifetimeStatsFragment">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Lifetime Stats"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Total"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/caloriesTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Calories"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/distanceTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Distance"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/stepsTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Steps"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Best in a Day"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Distance"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/stepsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Steps"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+</LinearLayout>

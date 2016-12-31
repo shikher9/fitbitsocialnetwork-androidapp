@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newsfeed"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="News Feed" />
+
+
+        <item
+            android:id="@+id/nav_friend_suggestions"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Friend Suggestions" />
+        <item
+            android:id="@+id/nav_confirm_friends"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Confirm Friends" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Search" />
+
+
+    </group>
+
+    <item android:title="Stats">
+        <menu>
+            <item
+                android:id="@+id/nav_ligetime_stats"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Lifetime Stats" />
+            <item
+                android:id="@+id/nav_today_stats"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Today Stats" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_badges"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Badges" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.shikher.fitbitsocialnetwork.fragment.stats.TodayStatsFragment">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Today Stats"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/caloriesOutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Calories Out"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/caloriesGoalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Calories Goal"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/waterConsumedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Water Consumed"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/waterGoalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Water Goal"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/todayStepsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Steps"
+        android:textSize="22dp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
